@@ -1,0 +1,22 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	boolean	response=  hasEqualSum(3,4,5);
+	System.out.println(response);
+
+	}
+	public static boolean hasEqualSum(int i, int j, int k)
+	{
+    int p = i+j;
+    if (p == k)
+    {
+      return true;  
+    }
+ else {
+ return false;
+ }
+		}
+}
+
